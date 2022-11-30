@@ -1,0 +1,9 @@
+@include('pages.HeaderManeg.Header');
+@include('pages.BannerManeg.Banner');
+@include('pages.ServicesManeg.Services');
+@include('pages.DiscountManeg.Discount');
+@include('pages.FacilitizeManeg.Facilitize');
+@include('pages.TestimunialManeg.Testimunial');
+@include('pages.BlogsManeg.Blogs');
+@include('pages.ContactManeg.Contact');
+@include('pages.FooterManeg.Footer');
