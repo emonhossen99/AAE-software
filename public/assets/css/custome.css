@@ -1,12 +1,20 @@
-.fanciNav{
+.fanciNav {
     color: white !important;
     font-weight: 500;
     font-family: sans-serif;
 }
+
 #banner {
     margin-top: 80px;
     margin-bottom: 15px;
 }
+
+.ourBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-link {
     font-size: 18px;
 }
@@ -92,7 +100,8 @@ section.simple-cta {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-.facilitiesHeading{
+
+.facilitiesHeading {
     margin-bottom: 65px;
 }
 
@@ -142,12 +151,15 @@ section.simple-cta {
     margin-top: 90px;
     margin-bottom: 91px !important;
 }
-.conteinerCenter{
+
+.conteinerCenter {
     text-align: center;
 }
-#HeadContact{
+
+#HeadContact {
     margin-top: 55px;
 }
+
 .contactUs {
     margin-top: 80px;
     margin-bottom: 50px;
@@ -167,157 +179,189 @@ section.simple-cta {
     color: mediumvioletred;
 }
 
-.caption h4{
+.caption h4 {
     color: #007bff !important;
     margin-bottom: 11px;
     margin-top: 20px;
 }
+
 .social_media {
     margin-top: -21px;
 }
+
 .sosalFacebook {
     font-size: 28px !important;
     margin-right: 10px !important;
     text-decoration: none !important;
     color: #4267B2 !important;
 }
+
 a.sosalFacebook.link.link-hover {
     text-decoration: none;
 }
+
 .sosalInstagram {
     font-size: 24px !important;
     margin-right: 10px !important;
     text-decoration: none !important;
     color: #C13584 !important;
 }
+
 a.sosalInstagram.link.link-hover {
     text-decoration: none;
 }
+
 .sosalTwitter {
     font-size: 24px !important;
     margin-right: 10px !important;
     text-decoration: none !important;
     color: #1DA1F2 !important;
 }
+
 a.sosalTwitter.link.link-hover {
     text-decoration: none;
 }
+
 .sosalLinkedin {
     font-size: 24px !important;
     margin-right: 10px !important;
     text-decoration: none !important;
     color: #0A66C2 !important;
 }
+
 a.sosalLinkedin.link.link-hover {
     text-decoration: none;
 }
+
 .sosalSkype {
     font-size: 24px !important;
     margin-right: 10px !important;
     text-decoration: none !important;
     color: #009EDC !important;
 }
+
 a.sosalSkype.link.link-hover {
     text-decoration: none;
 }
-.lastFooter{
+
+.lastFooter {
     text-align: center;
 }
 
 
-.myCard{
+.myCard {
     border: none !important;
 }
-.myCard img{
+
+.myCard img {
     padding-top: 35px;
     padding-bottom: 25px;
 }
+
 .serviceButton {
     width: 60%;
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
 /* about page  */
- #about{
+#about {
     margin-top: 110px;
 }
-.ceoContent{
+
+.ceoContent {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
 }
-.ceoImagess{
+
+.ceoImagess {
     margin-bottom: 50px
-} 
+}
 
 
 /* services page  */
 
-.ServicesBox{
+.ServicesBox {
     margin-top: 60px !important;
     background-color: #fcfafa;
 }
-.developmentBox h5,.designBox h5, .networkingBox h5, .marketingBox h5{
-    color: #59a2a2;
+
+.developmentBox h5 {
+    color: #1babab;
+    margin-top: 25px;
+    margin-bottom: 25px
 }
-.developmentBox a, .designBox a, .networkingBox a, .marketingBox a{
+
+.developmentBox a {
     display: block;
     text-decoration: none;
     border: 1px solid lightgray;
     margin-top: 10px;
     padding: 9px;
-    color: darkblue;
+    color: #343a40;;
 }
-.developmentBox a,.designBox a, .networkingBox a, .marketingBox a{
+
+.developmentBox a {
     display: flex;
     align-items: center;
 }
-.developmentBox a .icons ,.designBox a .icons, .networkingBox a .icons, .marketingBox a .icons{
-    color: blue;
+
+.developmentBox a .icons {
+    color: #26268e;
     font-size: 13px;
     margin-right: 5px;
 }
-#HeadSingup{
+
+#HeadSingup {
     margin-bottom: -50px;
 }
-#HeadSingin{
+
+#HeadSingin {
     margin-top: 90px;
     margin-bottom: -50px;
 }
 
 
 /* sing in  */
-.singinBox{
+.singinBox {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .resetPass {
     width: 100%;
     margin-top: 13px;
     margin-bottom: -1px;
 }
+
 .newAAE {
     width: 100%;
     margin-top: 10px;
 }
-.singinfrom{
+
+.singinfrom {
     border: 1px solid gainsboro;
     box-shadow: 2px 1px 1px 1px #e4e4e4;
 }
-.singInHedding{
+
+.singInHedding {
     color: #9b9b9b;
     margin-top: 30px;
     margin-bottom: 22px;
 }
+
 .singInButton {
     text-align: center;
     width: 100%;
 }
-.singInButton button{
+
+.singInButton button {
     width: 80%;
 }
+
 .githubButton a {
     font-size: 13px;
     color: #101010;
@@ -330,15 +374,19 @@ a.sosalSkype.link.link-hover {
     transition: all .3s;
     width: 80%;
 }
-.socialLogin{
+
+.socialLogin {
     width: 17%;
 }
-.socialLoging{
+
+.socialLoging {
     width: 10%;
 }
-.Dashborad{
+
+.Dashborad {
     margin-top: 50px !important;
 }
+
 .singleServicesDiv {
     display: flex;
     justify-content: center;
@@ -348,57 +396,68 @@ a.sosalSkype.link.link-hover {
     color: #9ad8f2;
     padding: 45px 10px;
 }
+
 .singleServiceSubH {
     color: white;
 }
-.overViewBox h2{
+
+.overViewBox h2 {
     font-size: 25px;
     line-height: 31px;
     color: #3C6382;
     font-weight: 600;
     font-family: "Montserrat", Sans-serif !important;
-}    
+}
+
 .overViewBox p {
     font-family: "Open Sans", Sans-serif !important;
     color: #868080;
     margin-bottom: 1.5em;
     line-height: 25px;
 }
-.cartBox{
-   box-shadow:0px 4px 6px 0px darkgrey;
+
+.cartBox {
+    box-shadow: 0px 4px 6px 0px darkgrey;
 }
-.arrowIcons{
+
+.arrowIcons {
     color: blue;
     font-weight: 700;
     margin-right: 8px;
 }
-.modeulRow{
+
+.modeulRow {
     display: flex;
     justify-content: space-between;
 }
-.modiuleCol h2{
+
+.modiuleCol h2 {
     font-size: 25px;
     line-height: 31px;
     color: #3C6382;
     font-weight: 600;
     font-family: "Montserrat", Sans-serif !important;
 }
+
 .modiuleCol p {
     font-family: "Open Sans", Sans-serif !important;
     color: #868080;
     margin-bottom: 1.5em;
     line-height: 25px;
 }
-.SingleServiceImg{
+
+.SingleServiceImg {
     width: 100%;
     height: auto;
     padding-top: 15px;
 }
-.addCart{
+
+.addCart {
     width: 100%;
     text-align: center;
 }
-.addCart h2{
+
+.addCart h2 {
     color: cornflowerblue;
     font-size: 25px;
     margin-top: 30px;
@@ -416,29 +475,206 @@ a.sosalSkype.link.link-hover {
     font-weight: 500;
     margin-bottom: 15px;
 }
-.discount{
-    text-decoration-line:line-through;
+
+.discount {
+    text-decoration-line: line-through;
     color: gray !important;
     font-size: 20px !important;
     margin-right: 12px;
 }
+
 .cartDiricstion {
     padding-top: 66px;
-    color: #8b8f91 ;
-    font-weight: 500 ;
+    color: #8b8f91;
+    font-weight: 500;
 }
-.cartIcons{
+
+.cartIcons {
     margin-right: 11px;
 }
-.daycartRow{
+
+.daycartRow {
     margin-top: 30px;
 }
-.workingDay{
+
+.workingDay {
     display: flex;
     justify-content: space-between;
     padding: 0px 55px;
 }
-.workHour{
+
+.workHour {
     margin-top: 70px;
     margin-left: 15px;
+}
+
+.subCatModel.row.section-counter {
+    text-align: center;
+}
+
+.subCatBox a {
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 18px;
+    color: #6b6b99;
+}
+
+.arrowIcons {
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.SubCatData {
+    display: flex;
+}
+
+.subUpdateDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subeditButton {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.selctedTable {
+    padding: 5px 8px;
+    color: #8c8789;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 6px;
+    border: 3px solid gainsboro;
+}
+
+
+.subcatButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcatButton button {
+    width: 40%;
+    padding: 10px 0px;
+}
+ul.serviceSubMenu {
+    position: absolute;
+    background: #e8e8e8;
+    border-top: 5px solid #daf3ba;
+    display: none;
+    margin-top: 6px;
+    padding-bottom: 30px;
+}
+
+.servicesBox:hover ul.serviceSubMenu {
+    display: block;
+}
+
+.sosalIcons {
+    text-align: end;
+    margin-left: 63px;
+}
+.sosalfb{
+    color: #057ffa !important;
+    margin-right: 13px;
+    font-size: 18px;
+}
+.sosalin{
+    color: #C13584 !important; 
+    margin-right: 13px;
+    font-size: 18px;
+}
+.sosaltw{
+    color: #1DA1F2  !important; 
+    margin-right: 13px;
+    font-size: 18px;
+}
+.sosallk{
+    color: #1DA1F2  !important; 
+    margin-right: 13px;
+    font-size: 18px;
+}
+.sosalyt{
+    color: #FF0000  !important; 
+    margin-right: 13px;
+    font-size: 18px;
+}
+.phoneBox {
+    color: #007bff;
+    margin-right: 8px;
+}
+.sosaldevaider {
+    margin-left: 8px;
+}
+.gmailBox{
+    color: #007bff;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1680px) {
+    .serviceSubMenu {
+        width: 76%;
+        left: 185px;
+    }
+    .servicesCounter {
+        margin-left: -55px;
+    }
+}
+@media(max-width: 1280px) {
+    .serviceSubMenu {
+        width: 76%;
+        left: 185px;
+    }
+    .servicesCounter {
+        margin-left: -55px;
+    }
+}
+@media(max-width: 700px) {
+    .serviceSubMenu {
+        width: 100%;
+        left: 0;
+    }
+    .servicesCounter {
+        margin-left: 0;
+    }
+    .fanciNav{
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .serviceSubMenu {
+        width: 100%;
+        left: 0;
+    }
+    .servicesCounter {
+        margin-left: 0px;
+    }
+    .fanciNav{
+        text-align: center;
+    }
+}
+@media(max-width: 320px) {
+    .serviceSubMenu {
+        width: 100%;
+        left: 0;
+    }
+    .servicesCounter {
+        margin-left: 0px;
+    }
+    .fanciNav{
+        text-align: center;
+    }
 }

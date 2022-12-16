@@ -8,8 +8,6 @@
   
   <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
   
-  <!-- <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css"> -->
-  
   <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">

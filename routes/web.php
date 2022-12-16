@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutContriller;
+use App\Http\Controllers\CatController;
+use App\Http\Controllers\SubCatController;
+use App\Http\Controllers\SubCatDetailsController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\SingleServiceController;
 use App\Http\Controllers\ContactController;
@@ -18,3 +21,8 @@ Route::get('/contact', [ContactController :: class, 'ContactMe']);
 Route::get('/dashborad', [DashboradController :: class, 'Dashborad']);
 Route::get('/singin', [SinginController :: class, 'Singin']);
 Route::get('/register', [RegisterController :: class, 'Register']);
+
+Route::resource('/category',CatController::class);
+Route::resource('/subcats',SubCatController::class);
+Route::resource('/subCatDetails',SubCatDetailsController::class);
+Route::get('subCatDetails/getsub/{id}', [SubCatDetailsController::class,'getSubCat']);

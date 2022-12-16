@@ -24,7 +24,7 @@
                     <div class="card myCard wow fadeInRight">
                         <img src="../assets/img/blog/web-desing.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                            <h5 class="card-title">Course Name : <span class="serviceName">Responsive Web Design</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>
@@ -36,7 +36,7 @@
                     <div class="card myCard wow fadeInUp">
                         <img src="../assets/img/blog/web-devolpment.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design & Development</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>
@@ -48,7 +48,7 @@
                     <div class="card myCard wow fadeInLeft">
                         <img src="../assets/img/blog/desing and development.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                        <h5 class="card-title">Course Name : <span class="serviceName">WordPress Theme Customization</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>
@@ -60,7 +60,7 @@
                     <div class="card myCard wow fadeInLeft">
                         <img src="../assets/img/blog/graphic-desing.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                        <h5 class="card-title">Course Name : <span class="serviceName">Graphic Design</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>
@@ -72,7 +72,7 @@
                     <div class="card myCard wow fadeInUp">
                         <img src="../assets/img/blog/photographi.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                        <h5 class="card-title">Course Name : <span class="serviceName">Photography</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>
@@ -84,7 +84,7 @@
                     <div class="card myCard wow fadeInRight">
                         <img src="../assets/img/blog/vedio editing.jpg" class="card-img-top img-responsive" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Course Name : <span class="serviceName">Web Design</span></h5>
+                        <h5 class="card-title">Course Name : <span class="serviceName">Video Editing</span></h5>
                             <h5 class="card-titlePrice cardTitlePrice"></h5>
                             <span class="post-date"><span class="sr-only"></span>Price : on  10,000 tk</span>
                             <br>

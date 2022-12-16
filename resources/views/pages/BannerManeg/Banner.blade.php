@@ -18,16 +18,24 @@
   <div class="vg-page" id="banner">
     <div class="container py-5 mt-8">
     <div class="badge badge-subhead text-center fw-normal wow fadeInUp">Home</div>
-      <div class="row">
+      <div class="row ourBanner">
         <div class="col-lg-5 offset-lg-1 wow fadeInUp">
           <h1 class="fw-light">Welcome To</h1>
           <h5 class="fg-theme mb-3">AAE it Institute</h5>
-          <p class="text-muted">AAE it Institute started off as an IT and web-based solutions, services and web design,development,graphic etc company in Ireland, Germany, and Bangladesh in 2022. Over the years, AAE it Institute has delivered successful projects in multiple platforms to clients in the US, Canada, UK, Ireland, Norway, Belgium, Netherlands, Bangladesh, Australia to name a few countries. The founders decided to set up AAE it Institute in 2022 to provide professional IT training along with IT Skill Enhancement Training Program with the outsourcing market for graduates in view to gain work that follows international standards and quality.</p>
+          <p class="text-muted">AAE it Institute started off as an IT and web-based solutions, services and web design,development,graphic etc company in Ireland, Germany, and Bangladesh in 2022. Over the years, AAE it Institute has delivered successful projects in multiple platforms to clients in the US, Canada, UK, Ireland, Norway, Belgium, Netherlands, Bangladesh, Australia to name a few countries.</p>
           <button class="btn btn-theme-outline">Get Started</button>
         </div>
         <div class="col-lg-5  mt-10">
           <div class="img-place wow  fadeInRight">
-          <lottie-player id="bannerImages" src="https://assets10.lottiefiles.com/private_files/lf30_wqypnpu5.json" background="transparent"  speed="1"  style="width: 100%; height: auto;" loop  autoplay></lottie-player>
+          <lottie-player id="bannerImages" 
+          src="https://assets2.lottiefiles.com/private_files/lf30_TBKozE.json" 
+          background="transparent"
+            speed="1" 
+             style="width:
+             100%; height: auto;"
+              loop 
+               autoplay
+              ></lottie-player>
           </div>
         </div>
       </div>

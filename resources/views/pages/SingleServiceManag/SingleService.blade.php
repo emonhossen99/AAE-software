@@ -35,7 +35,7 @@
                     <p>In this course, you will learn how to make a responsive web design that is user-friendly and with an aesthetic approach. You will learn how to make your website adapt to the different screen sizes.</p>
                 </div>
                 <div class="cartBox col-lg-4 offset-lg-1 wow fadeInRight">
-                    <img class="SingleServiceImg" src="../assets/img/blog/web-devolpment.jpg">
+                    <img class="SingleServiceImg" src="../assets/img/project/Devolopment/Kids Programming.webp">
                 <div class="addCart">
                     <h2><span class="discount">৳ 10,500.00</span>৳ 10,000.00</h2>
                 <button>Add To Cart</button>
