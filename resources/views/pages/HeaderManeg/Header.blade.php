@@ -77,7 +77,7 @@
             </li>
             <li class="servicesBox nav-item">
             <!-- /services -->
-              <a href="" class="fanciNav nav-link" data-animate="scrolling">Services</a>
+              <a href="" class="servicesBoxs fanciNav nav-link" data-animate="scrolling">Services<span class="ti-angle-down"></span></a>
                 <ul class="serviceSubMenu">
                 <div class="servicesCounter wow fadeInUp row section-counter">
                     <div class="container">

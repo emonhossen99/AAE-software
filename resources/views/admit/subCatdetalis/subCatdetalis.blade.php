@@ -28,10 +28,12 @@
             font-size: 18px;
         }
     </style>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <body>
     <div class="container-scroller">
+        
         <!-- partial:../../partials/_navbar.html -->
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="navbar-brand-wrapper d-flex justify-content-center">
@@ -222,13 +224,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">Sub Category Details form</h4>
-                                    <form class="forms-sample" method="POST" action="#">
+                                    <form class="forms-sample" method="POST"  enctype='multipart/form-data'  >
                                         @csrf
                                         <div class="detailsFrom">
                                             <div class="form-group  col-md-10 col-sm-5  col-xm-3 ">
                                                 <label for="exampleInputUsername1">Select Category</label>
                                                 <br>
+                                                <ul class="alert alert-danger d-none" id="save_errorList">
 
+                                                </ul>
+                                                <ul class="alert alert-success d-none" id="save_success">
+
+                                                </ul>
+                                                
                                                 <select class="selctedTable" name="cat_id" id="sel_cat_id">
                                                     <option value="zero">Select Category</option>
                                                     @foreach($data as $da)
@@ -241,65 +249,88 @@
                                                 <label for="exampleInputUsername1">Select Sub Category</label>
                                                 <br>
                                                 <h1></h1>
-                                                <select class="selctedTable enable_tag" name="cat_id enable_tag" id="select_sub_details" disabled require>
+                                                <select class="selctedTable enable_tag" name="sub_cat_id" id="select_sub_details" disabled require>
                                                     <option>Select Sub Category</option>
-                                                
+
                                                 </select>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Enter Our Course Overview :</label>
-                                                <textarea class="form-control enable_tag" id="overview" rows="4" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" name="overview" id="overview" rows="4" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">What You Will Learn From This Course :</label>
-                                                <textarea class="form-control enable_tag" id="learncourse" rows="4" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" id="learncourse" name="learncourse" rows="4" disabled require></textarea>
+                                            </div>
+                                            <div class="modal" tabindex="-1" role="dialog">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title">Modal title</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Modal body text goes here.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Certification :</label>
-                                                <textarea class="form-control enable_tag" id="certification" rows="1" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" id="certification" name="certification" rows="1" disabled require></textarea>
+                                            </div>
+                                            <div class="form-group col-md-10 col-sm-5  col-xm-3">
+                                                <label for="exampleFormControlTextarea1">Class :</label>
+                                                <textarea class="form-control enable_tag" name="class" id="class" rows="1" disabled require placeholder="Enter Your All Class :"></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Who this course is for? :</label>
-                                                <textarea class="form-control enable_tag" id="whocourse" rows="2" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" name="whocourse" id="whocourse" rows="2" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Modules :</label>
-                                                <textarea class="form-control enable_tag" id="modules" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" name="modules" id="modules" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Highlight :</label>
-                                                <textarea class="form-control enable_tag" id="highlight" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" name="highlight" id="highlight" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Topics :</label>
-                                                <textarea class="form-control enable_tag" id="topics" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" name="topics" id="topics" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Software Taught :</label>
-                                                <textarea class="form-control enable_tag" id="software_taught" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" id="software_taught" name="software_taught" rows="3" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Career Opportunity :</label>
-                                                <textarea class="form-control enable_tag" id="careeropportunity" rows="2" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
+                                                <textarea class="form-control enable_tag" id="careeropportunity" name="careeropportunity" rows="2" placeholder="One Sentence End Must Be Use ;" disabled require></textarea>
                                             </div>
                                             <div class=" form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Images :</label>
                                                 <br>
-                                                <input type="file" name="subCatDImag" id="subimages">
+                                                <input type="file" class="enable_tag" name="subCatDImag" id="subimages" disabled>
                                             </div>
                                             <div class="form-group col-md-10 col-sm-5  col-xm-3">
                                                 <label for="exampleFormControlTextarea1">Course Price:</label>
                                                 <div class="priceAB">
-                                                    <input type="text" class="enable_tag" name="afterPrice" id="afterprice" placeholder="Enter Your After Price" disabled require>
-                                                    <input type="text" class="enable_tag"  name="beforePrice" id="beforeprice" placeholder="Enter Your Before Price" disabled require> 
+                                                    <input type="text" class="enable_tag" name="afterPrice" name="afterprice" id="afterprice" placeholder="Enter Your After Price" disabled require>
+                                                    <input type="text" class="enable_tag" name="beforePrice" name="beforeprice" id="beforeprice" placeholder="Enter Your Before Price" disabled require>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="subcatButton">
+                                        <div  class="subcatButton">
                                             <button id="sub_prod_details" type="submit" class="btn btn-primary me-2">
                                                 Submit
                                             </button>
-                                        </div>
+                                       </div>
                                     </form>
                                 </div>
                             </div>
@@ -336,9 +367,11 @@
     <script src="{{asset('admin_assets/js/jquery.dataTables.js')}}"></script>
     <script src="{{asset('admin_assets/js/dataTables.bootstrap4.js')}}"></script>
     <!-- End custom js for this page-->
+   
 
-    <script src="{{asset('admin_assets/js/jquery.cookie.js')}}" type="text/javascript"></script>
     <script src="{{asset('admin_assets/js/subCatDetails.js')}}"></script>
+     <!-- ajax code  -->
+   
 </body>
 
 </html>

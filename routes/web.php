@@ -21,8 +21,8 @@ Route::get('/contact', [ContactController :: class, 'ContactMe']);
 Route::get('/dashborad', [DashboradController :: class, 'Dashborad']);
 Route::get('/singin', [SinginController :: class, 'Singin']);
 Route::get('/register', [RegisterController :: class, 'Register']);
+Route::get('subCatDetails/getsub/{id}', [SubCatDetailsController::class,'getSubCat']);
 
 Route::resource('/category',CatController::class);
 Route::resource('/subcats',SubCatController::class);
 Route::resource('/subCatDetails',SubCatDetailsController::class);
-Route::get('subCatDetails/getsub/{id}', [SubCatDetailsController::class,'getSubCat']);
